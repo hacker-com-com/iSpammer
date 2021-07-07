@@ -51,7 +51,7 @@ if  target == '':
 elif msgs == 0:
     banner()
     print("Please Enter the Number of Msgs with -m Argument")
-elif msgs>500:
+elif msgs>5000:
     banner()
     print(color)
     print("You can't Send more than 500 Msgs At a Time")
