@@ -55,7 +55,7 @@ elif msgs>500:
     banner()
     print(color)
     print("You can't Send more than 500 Msgs At a Time")
-elif len(target)==10 and msgs<=500:
+elif len(target)==10 and msgs<=5000:
         print(color)
         banner()
         check()
