@@ -7,16 +7,8 @@ from api import Api
 import sys
 
 def check():
-    try:
-        get("https://mrsp4rx.github.io/MrSp4rX/")
-        internet = True
-        print(color)
-        print("\t\t\t\t Bombing Startd...")
-    except:
-        print(color)
-        print("\tYou are not Conected to Internet. Please Turn on your Mobile Data")
-        exit()
-
+    print("\t\t\t\t Bombing Startd...")
+    
 def banner():
     os.system('''
 	figlet -c -k  I-Spam
