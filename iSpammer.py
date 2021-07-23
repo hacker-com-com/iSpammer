@@ -15,11 +15,11 @@ def banner():
 	figlet -c -k  I-Spam
 	echo  "   FinsTeR"
 	printf " "
-	printf "\e[1;32m                      .:.:.\e[0m\e[1;95m OTP && CALL bombing tool  \e[0m\e[1;32m.:.:.\e[0m\n"
-	printf "\e[1;32m               .:.:.\e[0m\e[1;95m made by \e[31m FinsTeR \e[0m \e[0m\e[1;32m.:.:.\e[0m\n"
+	printf "\e[1;32m \e[0m\e[1;95m OTP && CALL bombing tool  \e[0m\e[1;32m\e[0m\n"
+	printf "\e[1;32m \e[0m\e[1;95m made by \e[31m FinsTeR \e[0m \e[0m\e[1;32m\e[0m\n"
 	printf "\n"
-	printf "          \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
-	printf "            \e[101m\e[1;77m:: responsible for any misuse or damage caused by I-Spam ::\e[0m\n"
+	printf "\e[101m \e[1;77m Disclaimer: Developers assume no liability and are not \e[0m\n"
+	printf "\e[101m \e[1;77m responsible for any misuse or damage caused by I-Spam \e[0m\n"
 	printf "\n"
 	''')
 
@@ -51,6 +51,6 @@ elif len(target)==10 and msgs<=100001:
         Api.infinite(target, color, msgs)
         banner()
         print(color)
-        print("\t\t\t\t\t   Bombed "+str(msgs)+" Msgs Successfully...")
+        print("Bombed "+str(msgs)+" Messages Successfully...")
 else:
-    print("Please Enter Correct Mobile Number and Number of Msgs or Contact Sparky.")
+    print("Please Enter Correct Mobile Number and Number of Msgs or Contact FinsTeR.")
